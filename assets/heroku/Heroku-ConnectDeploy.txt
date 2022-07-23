@@ -43,6 +43,9 @@ set git remote heroku to https://git.heroku.com/ptesttt.git
 IN CLI >>> 
 $ git remote -v
 
+(To remove git remote connection to Heroku)
+$ git remote rm heroku
+
 CLI RETURNS (example) >>>
 heroku  https://git.heroku.com/ptesttt.git (fetch)
 heroku  https://git.heroku.com/ptesttt.git (push)
